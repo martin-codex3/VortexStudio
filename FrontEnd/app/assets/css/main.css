@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@iconify/tailwind4";
+
+@theme {
+    --font-primary-main: Google-Sans, sans-serif;
+    --color-primary-main-black: #000000;
+    --color-primary-main-white: white;
+    --color-primary-main-orange: #ff9100;
+    --color-primary-main-yellow: #ffc300;
+    --color-primary-main-blue: "";
+
+    /* for the text color here*/
+    --color-primary-main-text: #1f1f1f;
+    --color-primary-main-border: #1f1f1f;
+}
+
+/* for the external fonts here */
+@font-face {
+    font-family: "Google-Sans";
+    src: url("/fonts/ProductSans-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
