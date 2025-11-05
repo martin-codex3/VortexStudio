@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-primary-main-black text-primary-main-white font-primary-main min-h-screen">
+  <div class="bg-primary-main-black text-primary-main-white font-primary-main">
     <NuxtLayout>
       <NuxtPage/>
     </NuxtLayout>

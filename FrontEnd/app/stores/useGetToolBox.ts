@@ -1,7 +1,7 @@
 import {defineStore} from "pinia";
 
 export const useGetToolBox = defineStore("toolBox", () => {
-    const toggleToolBox: boolean = ref(false)
+    const toggleToolBox = ref<boolean>(false)
 
     return { toggleToolBox }
 })

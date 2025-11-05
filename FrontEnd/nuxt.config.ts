@@ -9,5 +9,11 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
   css: ["./app/assets/css/main.css"],
-  modules: ['@nuxt/image', '@nuxt/scripts', '@nuxt/fonts', "@pinia/nuxt"]
+  modules: [
+    '@nuxt/image',
+    '@nuxt/scripts',
+    '@nuxt/fonts',
+    "@pinia/nuxt",
+    'nuxt-monaco-editor'
+  ]
 })

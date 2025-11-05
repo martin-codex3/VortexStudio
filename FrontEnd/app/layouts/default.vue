@@ -13,7 +13,7 @@
         <SideNavigation/>
       </div>
 
-      <div class="pt-10 ps-22 z-0">
+      <div class="pt-10 ps-20 z-0">
         <main>
           <slot/>
         </main>
